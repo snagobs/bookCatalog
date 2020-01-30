@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c4101420-5905-4d46-91e2-521f3420c4fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/AuthorFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/AuthorFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/factories/BookFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BookFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/GenreFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/GenreFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_29_154121_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_29_154121_create_books_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_29_122317_create_autors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_29_122317_create_autors_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AuthorsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AuthorsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/GenresTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/GenresTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580299731550</updated>
       <workItem from="1580299732912" duration="7161000" />
-      <workItem from="1580375160634" duration="3429000" />
+      <workItem from="1580375160634" duration="4931000" />
     </task>
     <servers />
   </component>
