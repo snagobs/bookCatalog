@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4101420-5905-4d46-91e2-521f3420c4fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/books.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dynamic_email_template.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bookcatalog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bookcatalog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Author.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Genre.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/BookFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BookFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/GenreFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_29_122317_create_autors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_29_122317_create_autors_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_29_152626_create_genres_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_29_154121_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_29_154121_create_books_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/AuthorsTableSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/GenresTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +120,12 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/kyslik/column-sortable" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
     </include_path>
   </component>
   <component name="ProjectId" id="1X4K43N1OVShlM83tZFSupVGu5b" />
@@ -157,7 +163,8 @@
       <workItem from="1580375160634" duration="18054000" />
       <workItem from="1580454580614" duration="1313000" />
       <workItem from="1580468766325" duration="602000" />
-      <workItem from="1580545917320" duration="6449000" />
+      <workItem from="1580545917320" duration="14865000" />
+      <workItem from="1580568209700" duration="5053000" />
     </task>
     <servers />
   </component>
@@ -201,9 +208,13 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1329" height="237" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1580455594309" />
-    <state x="413" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1580546068203">
+    <state x="553" y="375" key="NewPhpFileDialog" timestamp="1580566114299">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="413" y="277" key="com.intellij.ide.util.TipDialog/65.24.1375.876@65.24.1375.876" timestamp="1580546068203" />
+    <state x="553" y="375" key="NewPhpFileDialog/65.24.1375.876@65.24.1375.876" timestamp="1580566114299" />
+    <state x="413" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1580568210662">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="413" y="277" key="com.intellij.ide.util.TipDialog/65.24.1375.876@65.24.1375.876" timestamp="1580568210662" />
   </component>
 </project>

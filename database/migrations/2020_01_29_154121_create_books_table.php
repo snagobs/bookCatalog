@@ -18,9 +18,8 @@ class CreateBooksTable extends Migration
             $table->bigInteger('author_id')->unsigned();
             $table->bigInteger('genre_id')->unsigned()->nullable();
             $table->string('title');
-            $table->float('price, USD');
+            $table->float('price');
             $table->string('description');
-            $table->boolean('available');
             $table->timestamps();
 
             $table->foreign('author_id')->references('id')->on('authors')->onDelete('cascade');
