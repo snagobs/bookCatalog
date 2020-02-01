@@ -3,12 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c4101420-5905-4d46-91e2-521f3420c4fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Genre.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/factories/BookFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BookFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/GenreFactory.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_29_122317_create_autors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_29_122317_create_autors_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/AuthorsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AuthorsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_29_152626_create_genres_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_29_154121_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_29_154121_create_books_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AuthorsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/GenresTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/GenresTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/GenresTableSeeder.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +154,10 @@
       <option name="presentableId" value="Default" />
       <updated>1580299731550</updated>
       <workItem from="1580299732912" duration="7161000" />
-      <workItem from="1580375160634" duration="4931000" />
+      <workItem from="1580375160634" duration="18054000" />
+      <workItem from="1580454580614" duration="1313000" />
+      <workItem from="1580468766325" duration="602000" />
+      <workItem from="1580545917320" duration="6449000" />
     </task>
     <servers />
   </component>
@@ -168,9 +177,33 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="402" y="37" key="#PHP/65.24.1375.876@65.24.1375.876" timestamp="1580299811373" />
-    <state x="413" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1580375164958">
+    <state x="546" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1580395503442">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="413" y="277" key="com.intellij.ide.util.TipDialog/65.24.1375.876@65.24.1375.876" timestamp="1580375164958" />
+    <state x="546" y="137" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1580395503442" />
+    <state x="490" y="207" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580387709675">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="490" y="207" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/65.24.1375.876@65.24.1375.876" timestamp="1580387709675" />
+    <state width="1329" height="237" key="GridCell.Tab.0.bottom" timestamp="1580455594310">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state width="1329" height="237" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1580455594310" />
+    <state width="1329" height="237" key="GridCell.Tab.0.center" timestamp="1580455594309">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state width="1329" height="237" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1580455594309" />
+    <state width="1329" height="237" key="GridCell.Tab.0.left" timestamp="1580455594308">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state width="1329" height="237" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1580455594308" />
+    <state width="1329" height="237" key="GridCell.Tab.0.right" timestamp="1580455594309">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state width="1329" height="237" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1580455594309" />
+    <state x="413" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1580546068203">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="413" y="277" key="com.intellij.ide.util.TipDialog/65.24.1375.876@65.24.1375.876" timestamp="1580546068203" />
   </component>
 </project>
