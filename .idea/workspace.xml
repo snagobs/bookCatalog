@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4101420-5905-4d46-91e2-521f3420c4fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/books.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dynamic_email_template.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bookcatalog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bookcatalog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_29_154121_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_29_154121_create_books_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +165,7 @@
       <workItem from="1580454580614" duration="1313000" />
       <workItem from="1580468766325" duration="602000" />
       <workItem from="1580545917320" duration="14865000" />
-      <workItem from="1580568209700" duration="5053000" />
+      <workItem from="1580568209700" duration="10961000" />
     </task>
     <servers />
   </component>
@@ -192,22 +193,26 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="490" y="207" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/65.24.1375.876@65.24.1375.876" timestamp="1580387709675" />
-    <state width="1329" height="237" key="GridCell.Tab.0.bottom" timestamp="1580455594310">
+    <state x="540" y="207" key="FileChooserDialogImpl" timestamp="1580587456475">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1329" height="237" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1580455594310" />
-    <state width="1329" height="237" key="GridCell.Tab.0.center" timestamp="1580455594309">
+    <state x="540" y="207" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1580587456475" />
+    <state width="1329" height="237" key="GridCell.Tab.0.bottom" timestamp="1580587457562">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1329" height="237" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1580455594309" />
-    <state width="1329" height="237" key="GridCell.Tab.0.left" timestamp="1580455594308">
+    <state width="1329" height="237" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1580587457562" />
+    <state width="1329" height="237" key="GridCell.Tab.0.center" timestamp="1580587457561">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1329" height="237" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1580455594308" />
-    <state width="1329" height="237" key="GridCell.Tab.0.right" timestamp="1580455594309">
+    <state width="1329" height="237" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1580587457561" />
+    <state width="1329" height="237" key="GridCell.Tab.0.left" timestamp="1580587457560">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1329" height="237" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1580455594309" />
+    <state width="1329" height="237" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1580587457560" />
+    <state width="1329" height="237" key="GridCell.Tab.0.right" timestamp="1580587457561">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state width="1329" height="237" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1580587457561" />
     <state x="553" y="375" key="NewPhpFileDialog" timestamp="1580566114299">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
