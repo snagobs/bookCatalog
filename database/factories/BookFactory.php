@@ -8,7 +8,7 @@ use Faker\Generator as Faker;
 $factory->define(Book::class, function (Faker $faker) {
     return [
         'title' => $faker->realText(20, 2),
-        'price, USD' => $faker->randomFloat($nbMaxDecimals = 2, $min = 5, $max = 299),
+        'price' => $faker->randomFloat($nbMaxDecimals = 2, $min = 5, $max = 299),
         'description' => $faker->realText(),
     ];
 });
