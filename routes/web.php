@@ -17,12 +17,8 @@ Route::get('/', function () {
 
 Route::get('/home', 'HomeController@index');
 
-
 Auth::routes();
 
 Route::resource('book', 'BookController');
-
 Route::get('/sendemail', 'SendEmailController@index');
 Route::post('/sendemail/send', 'SendEmailController@send');
-
-Route::get('admin/routes', 'HomeController@admin')->middleware('admin');

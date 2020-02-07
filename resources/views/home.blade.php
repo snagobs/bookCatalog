@@ -17,7 +17,7 @@
                     </div>
                     <div class="card-header">
                         @auth
-                            <a href="{{ url('/book') }}">Go to Book List</a>
+                            <a href="{{ url('/book') }}">Go to Book Store</a>
                         @endauth
                     </div>
                 </div>

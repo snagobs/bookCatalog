@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4101420-5905-4d46-91e2-521f3420c4fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/libre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/book/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/book/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/book/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/book/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +172,8 @@
       <workItem from="1580632986465" duration="422000" />
       <workItem from="1580633431245" duration="415000" />
       <workItem from="1580720318639" duration="29063000" />
-      <workItem from="1580893939135" duration="26513000" />
+      <workItem from="1580893939135" duration="30370000" />
+      <workItem from="1581062644133" duration="1912000" />
     </task>
     <servers />
   </component>
@@ -227,10 +229,10 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="553" y="375" key="NewPhpFileDialog/65.24.1375.876@65.24.1375.876" timestamp="1580910720419" />
-    <state x="413" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1580894863146">
+    <state x="413" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1581065023250">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="413" y="277" key="com.intellij.ide.util.TipDialog/65.24.1375.876@65.24.1375.876" timestamp="1580894863146" />
+    <state x="413" y="277" key="com.intellij.ide.util.TipDialog/65.24.1375.876@65.24.1375.876" timestamp="1581065023250" />
     <state x="421" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580904563517">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
