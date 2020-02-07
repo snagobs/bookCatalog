@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4101420-5905-4d46-91e2-521f3420c4fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BookSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BookSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/book/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/book/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/book/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/book/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/book/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/book/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/book/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/book/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/book/update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/book/update.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +180,7 @@
       <workItem from="1580633431245" duration="415000" />
       <workItem from="1580720318639" duration="29063000" />
       <workItem from="1580893939135" duration="30370000" />
-      <workItem from="1581062644133" duration="1912000" />
+      <workItem from="1581062644133" duration="11839000" />
     </task>
     <servers />
   </component>

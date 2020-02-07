@@ -52,7 +52,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 90px;
             }
 
             .links > a {
@@ -66,7 +66,7 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 300px;
             }
         </style>
     </head>
@@ -76,7 +76,7 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/book') }}">Book List</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
 
