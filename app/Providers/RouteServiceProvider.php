@@ -24,6 +24,13 @@ class RouteServiceProvider extends ServiceProvider
     public const HOME = '/home';
 
     /**
+     * The path to the "welcome" route for your application.
+     *
+     * @var string
+     */
+    public const WELCOME = '/';
+
+    /**
      * The path to the "book" route for your application.
      *
      * @var string
