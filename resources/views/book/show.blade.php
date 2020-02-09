@@ -9,6 +9,22 @@
                         <h5 class="card-title text-info"> Show Book </h5>
                     </div>
                     <div class="card-body">
+                        @if (count($errors) > 0)
+                            <div class="alert alert-danger">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+                        @if ($message = Session::get('success'))
+                            <div class="alert alert-success alert-block">
+                                <button type="button" class="close" data-dismiss="alert">×</button>
+                                <strong>{{ $message }}</strong>
+                            </div>
+                        @endif
                         <div class="row">
                             <div class="col-sm-8 offset-sm-2">
                                 <div class="form-group">
@@ -19,12 +35,12 @@
                                 <div class="form-group">
                                     <label> Author </label>
                                     <input type="text" name="author" disabled placeholder="author" class="form-control"
-                                           value="{{ $book->author }}">
+                                           value="{{ $book->author->name }}">
                                 </div>
                                 <div class="form-group">
                                     <label> Genre </label>
                                     <input type="text" name="genre" disabled placeholder="Genre" class="form-control"
-                                           value="{{ $book->genre }}">
+                                           value="{{ $book->genre->name }}">
                                 </div>
                                 <div class="form-group">
                                     <label> Price </label>
@@ -44,22 +60,6 @@
                                         <h5 class="card-title text-info"><br>
                                             If you wanna buy this book, please fill the form bellow.
                                         </h5>
-                                        @if (count($errors) > 0)
-                                            <div class="alert alert-danger">
-                                                <button type="button" class="close" data-dismiss="alert">×</button>
-                                                <ul>
-                                                    @foreach ($errors->all() as $error)
-                                                        <li>{{ $error }}</li>
-                                                    @endforeach
-                                                </ul>
-                                            </div>
-                                        @endif
-                                        @if ($message = Session::get('success'))
-                                            <div class="alert alert-success alert-block">
-                                                <button type="button" class="close" data-dismiss="alert">×</button>
-                                                <strong>{{ $message }}</strong>
-                                            </div>
-                                        @endif
                                         <div class="form-group">
                                             <label>Your Name</label>
                                             <input type="text" name="name" class="form-control" value=""

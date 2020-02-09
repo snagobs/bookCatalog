@@ -50,8 +50,8 @@ class BookController extends Controller
     {
         $request->validate([
             'title' => 'required',
-            'author' => 'required',
-            'genre' => 'required',
+            'author_id' => 'required',
+            'genre_id' => 'required',
             'price' => 'required',
             'description' => 'required',
         ]);
@@ -95,8 +95,8 @@ class BookController extends Controller
     {
         $book = $request->validate([
             'title' => 'required',
-            'author' => 'required',
-            'genre' => 'required',
+            'author_id' => 'required',
+            'genre_id' => 'required',
             'price' => 'required',
             'description' => 'required',
         ]);

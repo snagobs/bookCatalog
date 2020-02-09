@@ -3,16 +3,21 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Kyslik\ColumnSortable\Sortable;
 
 class Book extends Model
 {
-    use Sortable;
-
     protected $table = 'books';
     protected $primaryKey = 'id';
+    protected $fillable = ['title', 'author_id', 'genre_id', 'price', 'description','created_at','updated_at'];
 
-    protected $fillable = ['title', 'author', 'genre', 'price', 'description','created_at','updated_at'];
-    public $sortable = ['id', 'author', 'genre', 'title', 'price', 'description','created_at','updated_at'];
+    public function author()
+    {
+        return $this->belongsTo(Author::class);
+    }
+
+    public function genre()
+    {
+        return $this->belongsTo(Genre::class);
+    }
 
 }

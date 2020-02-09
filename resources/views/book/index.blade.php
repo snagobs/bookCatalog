@@ -31,8 +31,8 @@
                     @foreach($books as $book)
                         <tr>
                             <td> {{ $book->title }} </td>
-                            <td> {{ $book->author }} </td>
-                            <td> {{ $book->genre }} </td>
+                            <td> {{ $book->author->name }} </td>
+                            <td> {{ $book->genre->name }} </td>
                             <td> {{ $book->price }} </td>
                             <td> {{ $book->description }} </td>
                             <td>{{ date('Y-m-d', strtotime($book->created_at)) }}</td>
