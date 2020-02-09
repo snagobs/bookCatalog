@@ -4,10 +4,10 @@
     <div class="card">
         <div class="card-header">
             <h5 class="card-title text-info"> Book List </h5>
-            <div class="col-md-4 float-right">
+            <div class="col-md-5 float-right">
                 <form action="/search" method="get" class="form-horizontal">
                     <div class="input-group">
-                        <input type="search" name="search" class="form-control">
+                        <input type="search" name="search" class="form-control" placeholder="Search book by author, genre or title...">
                         <span class="form-group">
                             <button type="submit" class="btn btn-primary">Search</button>
                         </span>
