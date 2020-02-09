@@ -26,7 +26,7 @@ class BookController extends Controller
     public function index()
     {
 
-        $books = Book::all();
+        $books = Book::paginate(5);
 
         return view('book/index', compact('books'));
     }
@@ -113,7 +113,7 @@ class BookController extends Controller
             ->where('author', 'like', '%' . $search . '%')
             ->orWhere('genre', 'like', '%' . $search . '%')
             ->orWhere('title', 'like', '%' . $search . '%')
-            ->paginate(10);
+            ->paginate(5);
         return view('book/index', ['books' => $books]);
     }
 

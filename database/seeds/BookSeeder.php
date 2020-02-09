@@ -48,6 +48,27 @@ class BookSeeder extends Seeder
                 'price' => 388.99,
                 'description' => 'When they finished university, many of the best students did not look for jobs with big companies like Ford or Exxon. Instead they wanted to be free and run their own operations and stay in California, not far from San Francisco. Silicon Valley is thus a group of small towns, including Palo Alto and San José, a few miles south of San Francisco.',
             ],
+            [
+                'title' => 'Sherlock Holmes',
+                'author' => 'Agata Freesby',
+                'genre' => 'Detective',
+                'price' => 445.99,
+                'description' => 'Instead they wanted to be free and run their own operations and stay in California, not far from San Francisco. Silicon Valley is thus a group of small towns, including Palo Alto and San José, a few miles south of San Francisco.',
+            ],
+            [
+                'title' => 'World Of Tanks',
+                'author' => 'Noob Shutter',
+                'genre' => 'Comedy',
+                'price' => 338.99,
+                'description' => 'Silicon Valley is thus a group of small towns, including Palo Alto and San José, a few miles south of San Francisco.',
+            ],
+            [
+                'title' => 'Harry Plotter',
+                'author' => 'Joanna Bouling',
+                'genre' => 'Fantasy',
+                'price' => 999.99,
+                'description' => 'Many of the best students of Hogwarts did not look for jobs with big companies like Ford or Exxon. Instead they wanted to be free and run their own operations and stay in California, not far from San Francisco. Silicon Valley is thus a group of small towns, including Palo Alto and San José, a few miles south of San Francisco.',
+            ],
         ];
 
         foreach ($books as $book) {
@@ -57,7 +78,7 @@ class BookSeeder extends Seeder
                 'genre' => $book['genre'],
                 'price' => $book['price'],
                 'description' => $book['description'],
-            ));
+            ))->paginate(5);
         }
     }
 }
