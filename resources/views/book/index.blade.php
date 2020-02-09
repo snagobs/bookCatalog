@@ -4,16 +4,23 @@
     <div class="card">
         <div class="card-header">
             <h5 class="card-title text-info"> Book List </h5>
-
+            <div class="col-md-4 float-right">
+                <form action="/search" method="get" class="form-horizontal">
+                    <div class="input-group">
+                        <input type="search" name="search" class="form-control">
+                        <span class="form-group">
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </span>
+                    </div>
+                </form>
+            </div>
             @if(Auth::user()->is_admin == 1)
                 <div class="col-md-12">
-                    <a href="{{ url('book/create') }}" class="btn btn-info float-right"><i
+                    <a href="{{ url('book/create') }}" class="btn btn-info float-left"><i
                             class="fas fa-plus-circle"></i> Add New Book</a>
                 </div>
             @endif
-
             <div class="container mt-5">
-
                 <table class="table table-striped table-bordered mt-4">
                     <thead>
                     <tr style="text-align: center">
