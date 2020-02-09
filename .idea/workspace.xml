@@ -3,11 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="c4101420-5905-4d46-91e2-521f3420c4fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Author.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Book.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Genre.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_09_102736_create_genres_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_09_102805_create_authors_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_09_154121_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_09_154121_create_books_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AuthorSeeder.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/BookSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BookSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/GenreSeeder.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/book/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/book/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/book/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/book/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/book/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/book/show.blade.php" afterDir="false" />
@@ -177,7 +183,7 @@
       <workItem from="1580633431245" duration="415000" />
       <workItem from="1580720318639" duration="29063000" />
       <workItem from="1580893939135" duration="30370000" />
-      <workItem from="1581062644133" duration="41575000" />
+      <workItem from="1581062644133" duration="42124000" />
     </task>
     <servers />
   </component>
