@@ -18,7 +18,7 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/book', 'HomeController@index');
+
 
 Auth::routes();
 
@@ -27,6 +27,7 @@ Route::get('book/create', 'BookController@create')->middleware('admin');
 Route::get('book/{id}/delete', 'BookController@delete')->middleware('admin');
 Route::get('book/{book}/edit', 'BookController@edit')->name('book.edit')->middleware('admin');
 Route::get('book/{id}/edit', 'BookController@edit')->name('book.edit')->middleware('admin');
+Route::get('book/{id}', 'BookController@show')->name('book.show')->middleware('auth');
 
 Route::get('/sendemail', 'SendEmailController@index');
 Route::post('/sendemail/send', 'SendEmailController@send');
