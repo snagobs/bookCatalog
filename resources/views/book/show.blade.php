@@ -35,12 +35,12 @@
                                 <div class="form-group">
                                     <label> Author </label>
                                     <input type="text" name="author" disabled placeholder="author" class="form-control"
-                                           value="{{ $book->author->name }}">
+                                           value="{{ $book->author }}">
                                 </div>
                                 <div class="form-group">
                                     <label> Genre </label>
                                     <input type="text" name="genre" disabled placeholder="Genre" class="form-control"
-                                           value="{{ $book->genre->name }}">
+                                           value="{{ $book->genre }}">
                                 </div>
                                 <div class="form-group">
                                     <label> Price </label>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Book;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class BookController extends Controller
 {
@@ -103,6 +104,17 @@ class BookController extends Controller
 
         Book::where('id', $id)->update($book);
         return back()->with('success', 'Book updated successfully');
+    }
+
+    public function search(Request $request)
+    {
+        $search = $request->get('search');
+        $books = DB::table('books')
+            ->where('author', 'like', '%' . $search . '%')
+            ->orWhere('genre', 'like', '%' . $search . '%')
+            ->orWhere('title', 'like', '%' . $search . '%')
+            ->paginate(10);
+        return view('book/index', ['books' => $books]);
     }
 
     /**

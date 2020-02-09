@@ -23,6 +23,7 @@ Route::get('/home', function () {
 Auth::routes();
 
 Route::resource('book', 'BookController');
+Route::get('/search', 'BookController@search')->middleware('auth');
 Route::get('book/create', 'BookController@create')->middleware('admin');
 Route::get('book/{id}/delete', 'BookController@delete')->middleware('admin');
 Route::get('book/{book}/edit', 'BookController@edit')->name('book.edit')->middleware('admin');

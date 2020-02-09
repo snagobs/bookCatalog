@@ -29,17 +29,17 @@
                                                value="{{ $book->title }}">
                                         {!! $errors->first('title', '<small class="text-danger">:message</small>') !!}
                                     </div>
-                                    <div class="form-group" {{ $errors->has('dob') ? 'has-error' : ''}}>
-                                        <label>Author ID</label>
-                                        <input type="number" min="1" step="1" name="author_id" placeholder="Author ID" class="form-control"
-                                               value="{{ $book->author_id }}">
-                                        {!! $errors->first('author_id', '<small class="text-danger">:message</small>') !!}
+                                    <div class="form-group" {{ $errors->has('author') ? 'has-error' : ''}}>
+                                        <label>Author </label>
+                                        <input type="text" name="author" placeholder="Author" class="form-control"
+                                               value="{{ $book->author }}">
+                                        {!! $errors->first('author', '<small class="text-danger">:message</small>') !!}
                                     </div>
-                                    <div class="form-group" {{ $errors->has('genre_id') ? 'has-error' : ''}}>
-                                        <label>Genre ID</label>
-                                        <input type="number" min="1" step="1" name="genre_id" placeholder="Genre ID" class="form-control"
-                                               value="{{ $book->genre_id }}">
-                                        {!! $errors->first('genre_id', '<small class="text-danger">:message </small>') !!}
+                                    <div class="form-group" {{ $errors->has('genre') ? 'has-error' : ''}}>
+                                        <label>Genre </label>
+                                        <input type="text" name="genre" placeholder="Genre" class="form-control"
+                                               value="{{ $book->genre }}">
+                                        {!! $errors->first('genre', '<small class="text-danger">:message </small>') !!}
                                     </div>
                                     <div class="form-group" {{ $errors->has('price') ? 'has-error' : ''}}>
                                         <label>Price</label>
