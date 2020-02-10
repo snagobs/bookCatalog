@@ -41,7 +41,7 @@
                             <td> {{ $book->author }} </td>
                             <td> {{ $book->genre }} </td>
                             <td> {{ $book->price }} </td>
-                            <td> {{ $book->description }} </td>
+                            <td> {{ substr($book->description,0,strpos($book->description,' ',80)).' ...'}} </td>
                             <td>{{ date('Y-m-d', strtotime($book->created_at)) }}</td>
                             <td>{{ date('Y-m-d', strtotime($book->updated_at)) }}</td>
                             <td><a href="{{ route('book.show', $book->id )}}" class="badge badge-info">
